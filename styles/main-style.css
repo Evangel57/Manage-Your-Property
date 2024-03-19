@@ -1,0 +1,30 @@
+.main {
+    height: var(--main-h);
+    
+    
+}
+
+
+.main-img{
+    max-width: var(--main-img-w);
+}
+.main-text{
+    width: 40%;
+    transform: translateY(-10%);
+    /* padding-top: 91px; */
+}
+
+
+
+
+.main-imgcontainer img {
+    max-width: 785px;
+    max-height: 667px;
+    margin-bottom: -4rem;
+
+}
+    /* .noise-layer {
+    background: linear-gradient(#C1DEE8, #FBD9B9);
+    background-image: url(/images/illustration/Rectangle\ 14.jpg);
+    
+}

@@ -1,0 +1,24 @@
+.subscribe {
+    max-height: 457px;
+    margin-top: 135px;
+    display: flex;
+}
+.subscribe-text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    transform: translateY(-10%);
+
+}
+.subscribe-img{
+    max-width: 785px;
+    max-height: 667px;
+}
+
+.subscribe-text-info{
+    max-width: 526px;
+    margin-top: 18px;
+    padding-bottom: 45px;
+}

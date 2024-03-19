@@ -1,0 +1,40 @@
+.about-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-title-container {
+
+    align-items: center;
+    padding: 0 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-title-container p{
+    padding-right: 10px;
+    line-height: 24px;
+}
+
+.about-title-text {
+    width: 40%;
+}
+
+.book-btn{
+    padding: 20px 35px;
+    right: 0;
+    font-weight: var(--fw-regular);
+
+}
+.merits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.merits div h2{
+    margin-bottom: 5px;
+}
+
+.merits span {
+    display: block;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Manage Your Property</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/card-style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <img class="head-logo" src="./images/icons/Logo.svg" alt="">
+            <nav class="head-menu">
+                <ul class="menu">
+                    <li class="burger-menu"><a href="#"><img class="burger-img" src="./images/illustration/burger-menu-right-svgrepo-com.svg" alt=""></a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Services</a> </li>
+                    <li><a href="#">Listings</a></li>
+                    <li class="search"><img class="img-search" src="./images/icons/search-normal.svg" alt="" /></li>
+                </ul>
+            </nav>
+            <div class="head-us">
+                <a class="head-our-serv" href="">Other services <img src="./images/icons/arrow-service.svg" alt="" /></a>
+                <button class="head-us-btn-contact head-us-btn-contact-wid">
+                    Contact us
+                </button>
+            </div>
+        </header>
+        <section class="card-sect main">
+            <div class="main-text">
+                <p class="usual-text">Welcome to Realstate</p>
+                <h1>Manage Your Property</h1>
+                <p class="usual-text">Your will have everything nearby 
+                    supermarket, buses, <br /> station, the carmen neighborhood, etc</p>
+                <form id="emailForm-main" class="emailForm">
+                    <input type="email" id="emailInput-main" class="emailInput" placeholder="Enter your email">
+                    <button type="submit" class="dark-btn  cs-width" onclick="submitEmail()">Get a Quote</button>
+                </form>
+            </div>
+            <div class="main-imgcontainer">
+                    <img class="main-img" src="./images/houses/Final ii 1.svg" alt="" />
+            </div>
+        </section>
+        <section class="services">
+            <div class="services-head">
+                <p class="usual-text services-head-subtitle">Three steps. Three minutes.</p>
+                <h3 class="services-head-title">Everything should be this easy.</h3>
+            </div>
+            <div class="services-cards">
+                <div class="card-sevr services-c-answer">
+                    <img src="./images/icons/messages.svg" alt="" />
+                    <h4>Answer questions</h4>
+                    <p class="usual-text">
+                        Lorem ipsum dolor sit amet consectetur. 
+                        Adipiscing imperdiet bibendum in in vestibulum. 
+                    </p>
+                </div>
+                <div class="card-sevr services-c-select">
+                    <img src="./images/icons/sms-tracking.svg" alt="" />
+                    <h4>Select a quote</h4>
+                    <p class="usual-text">
+                        Lorem ipsum dolor sit amet consectetur. 
+                        Adipiscing imperdiet bibendum in in vestibulum. 
+                    </p>
+                </div>
+                <div class="card-sevr services-c-get">
+                    <img src="./images/icons/edit-2.svg" alt="" />
+                    <h4>Get registered</h4>
+                    <p class="usual-text">
+                        Lorem ipsum dolor sit amet consectetur. 
+                        Adipiscing imperdiet bibendum in in vestibulum. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="progects">
+            <div class="progects-head">
+                <div class="progects-head-text">
+                    <p class="usual-text">Best Project of the Years</p>
+                    <h3 class="progects-title">Our recent projects</h3>
+                </div>
+                <div class="progects-head-slider">
+                    <div class="slider-controls">
+                        <button class="slider-control" onclick="">
+                            <img src="./images/icons/arrou-left.svg" alt="">
+                        </button>
+                        <button class="slider-control" onclick="">
+                            <img src="./images/icons/arrou-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="progects-cards">
+                <div class="p-card">
+                    <div>
+                        <img src="./images/houses/house1.png" alt="">
+                    </div>
+                    <div class="p-card-text">
+                        <h6>Sobha Hearland II Villas</h6>
+                        <p class="usual-text">
+                            Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.
+                        </p>
+                        <div class="estimation">
+                            <div class="stars">
+                                <input type="radio" id="a-star5" name="a-rating" value="5">
+                                <label for="a-star5"><img src="./images/icons/Star-no-active.svg" alt="1"></label>
+                                <input type="radio" id="a-star4" name="a-rating" value="4">
+                                <label for="a-star4"><img src="./images/icons/Star-no-active.svg" alt="2"></label>
+                                <input type="radio" id="a-star3" name="a-rating" value="3">
+                                <label for="a-star3"><img src="./images/icons/Star-no-active.svg" alt="3"></label>
+                                <input type="radio" id="a-star2" name="a-rating" value="2">
+                                <label for="a-star2"><img src="./images/icons/Star-no-active.svg" alt="4"></label>
+                                <input type="radio" id="a-star1" name="a-rating" value="1">
+                                <label for="a-star1"><img src="./images/icons/Star-no-active.svg" alt="5"></label>
+                            </div>
+                            <span>4.83</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div>
+                        <img src="./images/houses/house2.png" alt="">
+                    </div>
+                    <div  class="p-card-text">
+                        <h6>Sobha Hearland II Villas</h6>
+                        <p class="usual-text">
+                            Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.
+                        </p>
+                        <div class="estimation">
+                            <div class="stars">
+                                <input type="radio" id="b-star5" name="b-rating" value="5">
+                                <label for="b-star5"><img src="./images/icons/Star-no-active.svg" alt="1"></label>
+                                <input type="radio" id="b-star4" name="b-rating" value="4">
+                                <label for="b-star4"><img src="./images/icons/Star-no-active.svg" alt="2"></label>
+                                <input type="radio" id="b-star3" name="b-rating" value="3">
+                                <label for="b-star3"><img src="./images/icons/Star-no-active.svg" alt="3"></label>
+                                <input type="radio" id="b-star2" name="b-rating" value="2">
+                                <label for="b-star2"><img src="./images/icons/Star-no-active.svg" alt="4"></label>
+                                <input type="radio" id="b-star1" name="b-rating" value="1">
+                                <label for="b-star1"><img src="./images/icons/Star-no-active.svg" alt="5"></label>
+                            </div>
+                            <span>4.83</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div>
+                        <img src="./images/houses/house3.png" alt="">
+                    </div>
+                    <div  class="p-card-text">
+                        <h6>Sobha Hearland II Villas</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.
+                        </p>
+                        <div class="estimation">
+                            <div class="stars">
+                                <input type="radio" id="c-star5" name="c-rating" value="5">
+                                <label for="c-star5"><img src="./images/icons/Star-no-active.svg" alt="1"></label>
+                                <input type="radio" id="c-star4" name="c-rating" value="4">
+                                <label for="c-star4"><img src="./images/icons/Star-no-active.svg" alt="2"></label>
+                                <input type="radio" id="c-star3" name="c-rating" value="3">
+                                <label for="c-star3"><img src="./images/icons/Star-no-active.svg" alt="3"></label>
+                                <input type="radio" id="c-star2" name="c-rating" value="2">
+                                <label for="c-star2"><img src="./images/icons/Star-no-active.svg" alt="4"></label>
+                                <input type="radio" id="c-star1" name="c-rating" value="1">
+                                <label for="c-star1"><img src="./images/icons/Star-no-active.svg" alt="5"></label>
+                            </div>
+                            <span>4.83</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div>
+                        <img src="./images/houses/house1.png" alt="">
+                    </div>
+                    <div class="p-card-text">
+                        <h6>Sobha Hearland II Villas</h6>
+                        <p class="usual-text">
+                            Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.
+                        </p>
+                        <div class="estimation">
+                            <div class="stars">
+                                <input type="radio" id="d-star5" name="d-rating" value="5">
+                                <label for="d-star5"><img src="./images/icons/Star-no-active.svg" alt="1"></label>
+                                <input type="radio" id="d-star4" name="d-rating" value="4">
+                                <label for="d-star4"><img src="./images/icons/Star-no-active.svg" alt="2"></label>
+                                <input type="radio" id="d-star3" name="d-rating" value="3">
+                                <label for="d-star3"><img src="./images/icons/Star-no-active.svg" alt="3"></label>
+                                <input type="radio" id="d-star2" name="d-rating" value="2">
+                                <label for="d-star2"><img src="./images/icons/Star-no-active.svg" alt="4"></label>
+                                <input type="radio" id="d-star1" name="d-rating" value="1">
+                                <label for="d-star1"><img src="./images/icons/Star-no-active.svg" alt="5"></label>
+                            </div>
+                            <span>4.83</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+        <section class="about">
+            <h3 class="about-title">We are a global, boutique real<br />estate brokerage</h3>
+            <div class="about-title-container">
+                <div class="about-title-text">
+                    <h4>
+                        The transfer of real estate
+                    </h4>
+                    <p class="usual-text">
+                        Lorem ipsum dolor sit amet consectetur. 
+                        Feugiat ut aliquet sit pellentesque sollicitudin. 
+                        Egestas faucibus lacus diam in senectus consectetur. 
+                        Mattis elit adipiscing quisque tellus scelerisque 
+                        vehicula ante nunc. Tellus consequat nisl quis nisl justo.
+                    </p>
+                    <div class="btns">
+                        <button class="dark-btn book-btn">
+                            Book Now!
+                        </button>
+                        <button class="head-us-btn-contact">
+                            Read More
+                        </button>
+                    </div>
+                    <div class="merits">
+                        <div>
+                            <h2>12+</h2>
+                            <span>Customers</span>
+                        </div>
+                        <div>
+                            <h2>14+</h2>
+                            <span>Offices</span>
+                        </div>
+                        <div>
+                            <h2>10+</h2>
+                            <span>Students</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-title-img">
+                    <img src="./images/illustration/sm-peop.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="card-sect subscribe">
+            <div class="subscribe-text">
+                <h3>
+                    Subscribe Our Newsletter
+                </h3>
+                <p class="usual-text subscribe-text-info">
+                    Lorem ipsum dolor sit amet consectetur. 
+                    Feugiat ut aliquet sit pellentesque sollicitudin. 
+                    Egestas faucibus lacus diam in senectus consectetur. 
+                    Mattis elit adipiscing quisque tellus scelerisque 
+                    vehicula ante nunc.
+                </p>
+                <form id="emailForm-subscribe" class="emailForm">
+                    <input type="email"  id="emailInput-subscribe" class="emailInput" placeholder="Enter your email">
+                    <button type="submit" class="dark-btn" onclick="">Get a Quote</button>
+                </form>
+            </div>
+            <div>
+                <img class="subscribe-img" src="./images/houses/subscr-house.png" alt="">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

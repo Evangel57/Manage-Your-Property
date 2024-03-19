@@ -1,0 +1,19 @@
+
+
+.services-head-subtitle {
+    text-align: center;
+}
+.services-head-title {
+    text-align: center;
+    margin: 16px 0 45px;
+}
+
+.services-cards{
+    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-sevr {
+    max-width: var(--serv-card);
+}
+

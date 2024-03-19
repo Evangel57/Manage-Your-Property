@@ -1,0 +1,27 @@
+.emailForm {
+    display: flex;
+}
+
+.emailInput {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 18px 24px;
+    border-radius: var(--smoll-border-radius);
+    width: var(--width-input);
+}
+/* .emailInput:active {
+    border: none;
+} */
+
+.dark-btn{
+    position: relative;
+    right: calc(var(--width-btn-inp) - 20px);
+    border-radius: var(--smoll-border-radius);
+    padding: 18px 25px;
+    font-weight: var(--fw-semiBold);
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    outline: none;
+}

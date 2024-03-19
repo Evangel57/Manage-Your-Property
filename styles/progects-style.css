@@ -1,0 +1,97 @@
+.progects-title{
+    margin-top: 16px ;
+}
+
+.progects-head{
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.progects-head-text{
+    width: 80%;
+}
+.progects-head-slider{
+    position: relative;
+    width: fit-content;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-control {
+    display: flex;
+    align-items: center;
+    height: 2.7em;
+    padding: 0 14px;
+    margin: 0 6px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slider-control:hover {
+    background-color: black;
+    box-shadow: 5px 5px 7px 2px rgba(1, 1, 13, 0.101);
+
+}
+
+.slider-control:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.progects-cards {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.p-card {
+    margin-right: 20px;
+    max-width: var(--width-house-card);
+    border: 1px solid rgb(190, 190, 190, .5);
+    border-radius: 14px;
+    cursor: pointer;
+}
+/* scroll hide */
+.progects-cards::-webkit-scrollbar { width: 0; }
+.progects-cards { -ms-overflow-style: none; }
+
+.p-card-text{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.estimation{
+    display: flex;
+    align-items: center;
+}
+
+.stars {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .stars input {
+    display: none;
+  }
+  
+  .stars label {
+    cursor: pointer;
+    margin-right: 5px;
+
+  }
+  
+  
+  .stars input:checked ~ label {
+    content: url('../images/icons/Star-active.svg'); 
+  }
+  
